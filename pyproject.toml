@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p2c"
+version = "0.1.0"
+description = "Quadratic polynomial builder: given two numbers, returns a, b, c and callable p2c(x) = a*x^2 + b*x + c plus its derivative."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Your Name" }]
+license = { file = "LICENSE" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/p2c"
+Issues = "https://github.com/yourname/p2c/issues"

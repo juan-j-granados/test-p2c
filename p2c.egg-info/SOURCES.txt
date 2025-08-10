@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+p2c/__init__.py
+p2c/core.py
+p2c.egg-info/PKG-INFO
+p2c.egg-info/SOURCES.txt
+p2c.egg-info/dependency_links.txt
+p2c.egg-info/top_level.txt
+tests/test_core.py
